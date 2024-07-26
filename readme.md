@@ -2,7 +2,7 @@
 
 - Apache Bench: https://httpd.apache.org/docs/2.4/programs/ab.html
 
-ab -c 5 -n 2000 http://localhost:{{port}}
+ab -c 10 -n 30000 http://localhost:{{port}}
 
 # Languages / Runtimes
 
@@ -15,6 +15,20 @@ ab -c 5 -n 2000 http://localhost:{{port}}
   - koa
 - Bun
 - Deno
+
+Get the best candidate of each language and test it behind ngnix and caddy
+
+- Caddy/Go
+- Caddy/Elixir
+- Caddy/Nodejs
+- Caddy/Bun
+- Caddy/Deno
+
+- Ngnix/Go
+- Ngnix/Elixir
+- Ngnix/Nodejs
+- Ngnix/Bun
+- Ngnix/Deno
 
 # System specs
 
