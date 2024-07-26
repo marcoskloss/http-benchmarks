@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "express": "node express.js",
+    "fastify": "node fastify.js",
+    "koa": "node koa.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "express": "^4.19.2",
+    "fastify": "^4.28.1",
+    "koa": "^2.15.3"
+  }
+}
