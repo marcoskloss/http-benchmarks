@@ -1,4 +1,6 @@
 name,requests,concurrency level,complete requests,failed requests,requests per second (mean),time per request (mean),time per request (mean across all concurrent requests)
-Express,30000,10,30000,0,6046.54,1.654,0.165
-Koa,30000,10,30000,0,9789.15,1.022,0.102
-Fastify,30000,10,30000,0,10595.51,0.944,0.094
+Node/Express,30000,10,30000,0,6046.54,1.654,0.165
+Node/Koa,30000,10,30000,0,9789.15,1.022,0.102
+Node/Fastify,30000,10,30000,0,10595.51,0.944,0.094
+Go/Std,30000,10,30000,0,13000.69,0.769,0.077
+Go/Gin,30000,10,30000,0,12573.04,0.795,0.080
